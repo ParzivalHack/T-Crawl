@@ -4,10 +4,6 @@ import requests
 from bs4 import BeautifulSoup
 import os
 
-logging.basicConfig(
-    format='%(asctime)s %(levelname)s:%(message)s',
-    level=logging.INFO)
-
 class Crawler:
 
     def __init__(self, urls=[]):
@@ -49,4 +45,3 @@ os.system("toilet T-Crawl")
 
 if __name__ == '__main__':
     Crawler(urls=[input("Insert URL to crawl: ")]).run()
-print("Crawling...")
