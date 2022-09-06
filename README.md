@@ -6,7 +6,7 @@ T-Crawl is a web crawler (spider) written in Python.
 This is how it works:
 * It downloads the HTML from a webpage.
 * It parses the HTML to extract links.
-* And then it prints the links collected.
+* It prints the links collected.
 
 # Installation of T-Crawl
 * apt update && apt upgrade
