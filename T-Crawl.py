@@ -2,6 +2,7 @@ import logging
 from urllib.parse import urljoin
 import requests
 from bs4 import BeautifulSoup
+import os
 
 logging.basicConfig(
     format='%(asctime)s %(levelname)s:%(message)s',
@@ -43,6 +44,8 @@ class Crawler:
                 logging.exception(f'Failed to crawl: {url}')
             finally:
                 self.visited_urls.append(url)
+
+os.system("toilet T-Crawl")
 
 if __name__ == '__main__':
     Crawler(urls=[input("Insert URL to crawl: ")]).run()
