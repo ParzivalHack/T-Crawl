@@ -45,4 +45,4 @@ class Crawler:
                 self.visited_urls.append(url)
 
 if __name__ == '__main__':
-    Crawler(urls=[input("Insert URL to crawl: "]).run()
+    Crawler(urls=[input("Insert URL to crawl: ")]).run()
