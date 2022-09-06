@@ -1,11 +1,12 @@
 # What is Web Crawling?
-Web Crawling is ...
-
+A Web crawler, sometimes called a spider or spiderbot and often shortened to crawler, is an Internet bot that systematically browses websites for the purpose of Web indexing (web spidering).
 
 # Tool info
 T-Crawl is a web crawler (spider) written in Python.
 This is how it works:
-* hshwhqhahjq
+* It downloads the HTML from a webpage.
+* It parses the HTML to extract links.
+* And then it prints the links collected.
 
 # Installation of T-Crawl
 * apt update && apt upgrade
