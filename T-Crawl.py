@@ -4,6 +4,9 @@ import requests
 from bs4 import BeautifulSoup
 import os
 
+logging.basicConfig(
+    level=logging.INFO)
+
 class Crawler:
 
     def __init__(self, urls=[]):
