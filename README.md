@@ -1,3 +1,4 @@
+![Screenshot_2022-09-06-14-53-51-33_84d3000e3f4017145260f7618db1d683](https://user-images.githubusercontent.com/82817793/188644163-df6fc958-95d5-4a1b-b74b-41e12cef9263.jpg)
 # What is Web Crawling?
 A Web crawler, sometimes called a spider or spiderbot and often shortened to crawler, is an Internet bot that systematically browses websites for the purpose of Web indexing (web spidering).
 
