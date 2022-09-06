@@ -37,7 +37,7 @@ class Crawler:
     def run(self):
         while self.urls_to_visit:
             url = self.urls_to_visit.pop(0)
-            logging.info(f'Crawling: {url}')
+            logging.info(f'Collected: {url}')
             try:
                 self.crawl(url)
             except Exception:
@@ -49,3 +49,4 @@ os.system("toilet T-Crawl")
 
 if __name__ == '__main__':
     Crawler(urls=[input("Insert URL to crawl: ")]).run()
+print("Crawling...")
